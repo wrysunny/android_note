@@ -8,4 +8,10 @@ dumpsys window windows | grep -E 'mCurrentFocus|mFocusedApp'
 
 # 启动当贝桌面
 am start -n com.dangbei.tvlauncher/com.dangbei.tvlauncher.IndexActivity
+
+# 挂载system分区读写/只读
+mount -o remount,rw /system
+mount -o remount,ro /system
+
+
 ```
