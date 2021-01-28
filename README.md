@@ -13,5 +13,7 @@ am start -n com.dangbei.tvlauncher/com.dangbei.tvlauncher.IndexActivity
 mount -o remount,rw /system
 mount -o remount,ro /system
 
+移动魔百和cm101s adb安装第三方软件
+pm install -m 0A5A0000 <apk filepath>
 
 ```
